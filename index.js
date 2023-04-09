@@ -64,4 +64,7 @@ $(document).ready(function(){
        } 
       });
   });
-  
+
+  var email = document.createElement("a");
+  email.href = "mailto:abc@mail.com";
+  email.click();
